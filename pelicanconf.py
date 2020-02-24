@@ -51,10 +51,7 @@ PAGINATION_PATTERNS = (
     (2, '{base_name}/page/{number}/', '{base_name}/page/{number}/index.html'),
 )
 
-STATIC_PATHS = ['extra/CNAME','images',]
-EXTRA_PATH_METADATA = {
-            'extra/CNAME': {'path': 'CNAME'},
-                }
+
 
 LINKS = (
             ('RSS', "feeds/all.atom.xml")
