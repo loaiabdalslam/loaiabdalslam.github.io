@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+
+  <title>Setting up a wifi modem with the CHIP computer</title>
+
+
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="referrer" content="origin" />
+  <meta name="generator" content="Pelican" />
+<link href="../../../../2019/10/23/setting-up-a-wifi-modem-with-the-chip-computer/" rel="canonical" />
+  <!-- Feed -->
+        <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="The Atari and Retro Site of Goz Full Atom Feed" />
+
+  <link href="../../../../theme/css/style.css" type="text/css" rel="stylesheet" />
+
+  <!-- Code highlight color scheme -->
+      <link href="../../../../theme/css/code_blocks/github.css" rel="stylesheet">
+
+
+  <!-- Custom fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,300' rel='stylesheet' type='text/css' />
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css" />
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+
+
+    <meta name="description" content="I was a backer of the original Kickstarter project for the $9 CHIP computer. Over the past several years I accumulated 8 CHIPs and 3...">
+
+    <meta name="author" content="gozar">
+
+    <meta name="tags" content="modem">
+    <meta name="tags" content="tcpser">
+    <meta name="tags" content="CHIP">
+
+
+
+
+<!-- Open Graph -->
+<meta property="og:site_name" content="The Atari and Retro Site of Goz"/>
+<meta property="og:title" content="Setting up a wifi modem with the CHIP computer"/>
+<meta property="og:description" content="I was a backer of the original Kickstarter project for the $9 CHIP computer. Over the past several years I accumulated 8 CHIPs and 3..."/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:url" content="../../../../2019/10/23/setting-up-a-wifi-modem-with-the-chip-computer/"/>
+<meta property="og:type" content="article"/>
+<meta property="article:published_time" content="2019-10-23 18:57:00-04:00"/>
+<meta property="article:modified_time" content=""/>
+<meta property="article:author" content="../../../../author/gozar/">
+<meta property="article:section" content="Hardware"/>
+<meta property="article:tag" content="modem"/>
+<meta property="article:tag" content="tcpser"/>
+<meta property="article:tag" content="CHIP"/>
+<meta property="og:image" content="../../../..//images/Atari800-header.jpg">
+
+<!-- Twitter Card -->
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "name": "Setting up a wifi modem with the CHIP computer",
+  "headline": "Setting up a wifi modem with the CHIP computer",
+  "datePublished": "2019-10-23 18:57:00-04:00",
+  "dateModified": "",
+  "author": {
+    "@type": "Person",
+    "name": "gozar",
+    "url": "../../../../author/gozar/"
+  },
+  "image": "../../../..//images/Atari800-header.jpg",
+  "url": "../../../../2019/10/23/setting-up-a-wifi-modem-with-the-chip-computer/",
+  "description": "I was a backer of the original Kickstarter project for the $9 CHIP computer. Over the past several years I accumulated 8 CHIPs and 3..."
+}
+</script>
+</head>
+<!-- TODO : Body class -->
+<body class="home-template">
+
+<nav id="menu">
+  <a class="close-button">Close</a>
+  <div class="nav-wrapper">
+    <p class="nav-label">Menu</p>
+    <ul>
+          <li><a href="/about/" role="presentation">About</a></li>
+          <li><a href="/category/hardware/" role="presentation">Hardware</a></li>
+          <li><a href="/category/software/" role="presentation">Software</a></li>
+
+
+    </ul>
+  </div>
+</nav>
+    <!-- Progressbar -->
+    <div class="progress-container">
+        <span class="progress-bar"></span>
+    </div>
+
+    <!-- Page Header -->
+    <!-- Set your background image for this header on the line below. -->
+    <header id="post-header" class="has-cover">
+      <div class="inner">
+        <nav id="navigation">
+            <span id="home-button" class="nav-button">
+                <a class="home-button" href="../../../../" title="Home"><i class="ic ic-arrow-left"></i> Home</a>
+            </span>
+          <span id="menu-button" class="nav-button">
+            <a class="menu-button"><i class="ic ic-menu"></i> Menu</a>
+          </span>
+        </nav>
+        <h1 class="post-title">Setting up a wifi modem with the CHIP computer</h1>
+        <!-- TODO : Proper class for headline -->
+        <span class="post-meta">
+                <a href="../../../../author/gozar/">Ryan 'Gozar' Collins</a>
+            | <time datetime="ر 23 أكتوبر 2019">ر 23 أكتوبر 2019</time>
+        </span>
+        <!-- TODO : Modified check -->
+            <div class="post-cover cover" style="background-image: url('../../../..//images/Atari800-header.jpg')">
+      </div>
+    </header>
+
+  <section id="wrapper">
+    <a class="hidden-close"></a>
+
+    <!-- Post content -->
+    <main class="content" role="main">
+        <article class="post">
+        <div class="inner">
+            <section class="post-content">
+                <p>I was a backer of the original Kickstarter project for the $9 CHIP computer. Over the past several years I accumulated 8 CHIPs and 3 PocketCHIPs. Suffice to say, I'm sitting pretty with CHIPs. </p>
+<p><img alt="My CHIPmodem, with optional battery" src="https://cdn.gtia.com/pics/2019/CHIPmodem-2019-12-29-800x.jpeg"></p>
+<p>My first project with the CHIP computers was setting up <a href="https://github.com/juhovh/shairplay">Shairplay</a> on one, and hooking it to a 1970s console stereo. The result is a pretty good sounding wireless speaker that I play music from my iPhone or iTunes on the computer.</p>
+<p>My next project was to use a CHIP as a wifi modem for my retro computers. I wanted to use the CHIP instead of the Arduino based wifi modem for a couple of reasons. One, I have several CHIPs. Two, I wanted to be able to not only use the modem to connect to BBSes, but I also wanted to be able to ssh to hosts. Finally, I have a couple of old Macs (such as the SE/30) that do not have network cards. Using a CHIP as a PPP server I would be able to give these Macs (and my STs) an IP connections. With the modifications FozzTexx did to <a href="https://github.com/FozzTexx/tcpser">tcpser</a>, I would have a really cool wifi modem that could connect my retro computers to just about anything.</p>
+<p>A lot of this article came from came from the hard work of <a href="http://podsix.org/articles/pimodem/">Raspberry Pi modem</a>. </p>
+<h2>Getting the hardware ready</h2>
+<p>I re-flashed a CHIP, and started to look at how to add a serial port to the little guy. It has a built in UART, but then I would need some level-shifters to make it RS232 compatible. I took the easy way out and bought a FTDI based USB to RS232 cable. My cable arrived, but when I plugged it in... Nothing.</p>
+<h2>My kingdom for a driver</h2>
+<p>Apparently, every Linux distribution under the sun has the FTDI serial driver, except for the CHIP computer with the 4.4.11 kernel. If you have the 4.4.13 kernel, you can skip these steps.</p>
+<p>The internet led me to a defunct page on NTC's BBS in which someone had <a href="https://web.archive.org/web/20180919025028/https://bbs.nextthing.co/t/usb-serial-connection-from-chip-to-cnc-device-large-usb-port/11210/19">compiled the driver for the CHIP</a>. Unfortunately, the link to the driver in Drobox was dead. But, all was not lost. I emailed the person who posted the driver, <a href="https://github.com/danjperron">Daniel Perron</a>, and as luck would have it, he still had a copy and sent it to me. It is now <a href="https://cdn.gtia.com/2019/usbserial.tgz">posted on the internet</a> for others! He was a big help, because the only other solution would be for me to set up and compile the driver, and I don't know if I could have done it.</p>
+<p>Once I had the driver, I followed the directions archived at <a href="https://web.archive.org/web/20180919025028/https://bbs.nextthing.co/t/usb-serial-connection-from-chip-to-cnc-device-large-usb-port/11210/19">archive.org</a> and I then had a serial port.</p>
+<p>On the CHIP (and as root), navigate to where the serial drivers will go and create a folder named serial there. Check the name of the kernel, if it is 4.4.13-ntc-mlc you are good to go and do not have to follow these directions.</p>
+<div class="highlight"><pre><span></span><span class="n">cd</span> <span class="o">/</span><span class="n">lib</span><span class="o">/</span><span class="n">modules</span><span class="o">/</span><span class="mi">4</span><span class="p">.</span><span class="mi">4</span><span class="p">.</span><span class="mi">11</span><span class="o">-</span><span class="n">ntc</span><span class="o">/</span><span class="n">kernel</span><span class="o">/</span><span class="n">drivers</span><span class="o">/</span><span class="n">usb</span>
+<span class="n">mkdir</span> <span class="nb">serial</span>
+<span class="n">cd</span> <span class="nb">serial</span>
+</pre></div>
+
+
+<p>Now, copy the drivers from the download above into that folder.</p>
+<p>Insert the modules:</p>
+<div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="n">insmod</span> <span class="n">usbserial</span><span class="p">.</span><span class="n">ko</span>
+<span class="n">sudo</span> <span class="n">insmod</span> <span class="n">ftdi_sio</span><span class="p">.</span><span class="n">ko</span>
+</pre></div>
+
+
+<p>Now plugging in your FTDI device will give you a /dev/ttyUSB0.</p>
+<h2>Fixing updates</h2>
+<p>You'll need to follow the directions in the <a href="http://www.chip-community.org/index.php/Care_and_Feeding#Update_CHIP_Software">CHIP-Community wiki</a> to update your apt sources so you can actually update the software on the chip and install software. In a nutshell, replace <code>ftp.us.debian.org</code> &amp; <code>http.debian.net</code> in <code>/etc/apt/sources.list</code> with <code>archive.debian.org</code>. Also, replace <code>opensource.nextthing.co</code> with either <code>chip.jfpossibilities.com</code> or <code>chip.lotek.fr</code>. Finally, since the apt sources are no longer being updated, we need to tell apt to ignore any expirations. <code>sudo nano /etc/apt/apt.conf</code> and add the line (the fille will probably be blank and you will be creating it):</p>
+<div class="highlight"><pre><span></span><span class="nv">Acquire</span>::<span class="nv">Check</span><span class="o">-</span><span class="nv">Valid</span><span class="o">-</span><span class="k">Until</span> <span class="s2">&quot;</span><span class="s">false</span><span class="s2">&quot;</span><span class="c1">;</span>
+</pre></div>
+
+
+<p>Now your apt commands will work!</p>
+<h2>Setting up tcpser</h2>
+<p>I'm using <a href="https://github.com/FozzTexx/tcpser">FozzTexx's fork of tcpser</a>. What tcpser does is provide modem emulation. After adding a USB to RS232 adapter (usually based on the FTDI chip), you can plug it into any computer with an RS232 port and tcpser will act like an Hayes compatible modem.</p>
+<p>First, I had to set up the CHIP so I could get the tcpser source and compile it.</p>
+<div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="n">apt</span> <span class="k">update</span>
+<span class="n">sudo</span> <span class="n">apt</span> <span class="n">install</span> <span class="n">git</span> <span class="n">build</span><span class="o">-</span><span class="n">essential</span>
+</pre></div>
+
+
+<p>Now I clone the git repository:</p>
+<div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="p">.</span><span class="n">com</span><span class="o">/</span><span class="n">FozzTexx</span><span class="o">/</span><span class="n">tcpser</span>
+</pre></div>
+
+
+<p>And finally, compile that bad boy:</p>
+<div class="highlight"><pre><span></span><span class="n">cd</span> <span class="n">tcpser</span>
+<span class="n">make</span>
+</pre></div>
+
+
+<p>A couple minutes later and I had a <em>tcpser</em> executable in the directory. I'll move it somewhere sane later, I just wanted to try it out.</p>
+<div class="highlight"><pre><span></span><span class="p">.</span><span class="o">/</span><span class="n">tcpser</span> <span class="o">-</span><span class="n">d</span> <span class="o">/</span><span class="n">dev</span><span class="o">/</span><span class="n">ttyUSB0</span> <span class="o">-</span><span class="n">s</span> <span class="mi">19200</span> <span class="s1">&#39;&amp;K0&#39;</span>
+</pre></div>
+
+
+<p>(The <code>&amp;K0</code> disables flow control, you may need it on, but it worked on my Atari 800 without issue.)</p>
+<p>I made a cable that consists mostly of dongles since I didn't have a 9-pin female to female adapter. The cable connected the CHIP to my MegaSTe as my first test. It worked right away!</p>
+<p>Tcpser works exactly like a Hayes compatible modem would work. To dial, use <code>atd</code> and the IP address of the host. To hang up, use <code>ath</code>. Depending on your terminal program, you may be able add ip addresses and port numbers and dial out like the old days. If your terminal program can't handle ip addresses or domain names, you can pass an address book when <a href="https://github.com/FozzTexx/tcpser">starting tcpser at the command line</a>. </p>
+<p>I started writing this article in Vim on my Atari MegaSTe. At 9600 baud it is pretty responsive, except for when it comes time to scroll. My Vim setup is configured for writing, using the <a href="https://github.com/junegunn/goyo.vim">Goyo</a>, <a href="https://github.com/plasticboy/vim-markdown">vim-markdown</a>, and <a href="https://github.com/reedes/vim-pencil">Pencil</a> plugins.</p>
+<h2>What's next?</h2>
+<p>You can dial out, but it would be nice to connect to the CHIP and then ssh out from there. To do that, install telnetd.</p>
+<div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="n">apt</span> <span class="n">install</span> <span class="n">telnetd</span>
+</pre></div>
+
+
+<p>From your favorite retro computer, you can now dial localhost and connect.</p>
+<div class="highlight"><pre><span></span><span class="n">atd</span> <span class="n">localhost</span>
+</pre></div>
+
+
+<p>I need to set up tcpser as a service, so it starts when the CHIP starts up. Right now I ssh into my CHIPs and run tcpser under tmux. I'd love to put the <a href="http://podsix.org/articles/pimodem/">CHIP in a modem case and wire up the LEDs</a>, but maybe later.</p>
+            </section>
+
+            <section class="post-info">
+                <div class="post-share">
+                    <a class="twitter" href="https://twitter.com/share?text=Setting up a wifi modem with the CHIP computer&amp;url=../../../../2019/10/23/setting-up-a-wifi-modem-with-the-chip-computer/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <i class="ic ic-twitter"></i><span class="hidden">Twitter</span>
+                    </a>
+                    <a class="facebook" href="https://www.facebook.com/sharer/sharer.php?u=../../../../2019/10/23/setting-up-a-wifi-modem-with-the-chip-computer/" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <i class="ic ic-facebook"></i><span class="hidden">Facebook</span>
+                    </a>
+                    <a class="googleplus" href="https://plus.google.com/share?url=../../../../2019/10/23/setting-up-a-wifi-modem-with-the-chip-computer/" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <i class="ic ic-googleplus"></i><span class="hidden">Google+</span>
+                    </a>
+                    <div class="clear"></div>
+                </div>
+
+                <aside class="post-tags">
+<a href="../../../../tag/modem/">modem</a><a href="../../../../tag/tcpser/">tcpser</a><a href="../../../../tag/chip/">CHIP</a>                </aside>
+
+                <div class="clear"></div>
+
+                <aside class="post-author">
+
+
+                        <figure class="post-author-avatar">
+                            <img src="https://gtia.com/images/gozavatar.png" alt="Ryan 'Gozar' Collins" />
+                        </figure>
+                    <div class="post-author-bio">
+                        <h4 class="post-author-name"><a href="../../../../author/gozar/">Ryan 'Gozar' Collins</a></h4>
+                            <p class="post-author-about">What, me worry?</p>
+                            <span class="post-author-location"><i class="ic ic-location"></i> Earth</span>
+                            <span class="post-author-website"><a href="https://ryancollins.org"><i class="ic ic-link"></i> Website</a></span>
+                        <!-- Social linkes in alphabet order. -->
+                    </div>
+                    <div class="clear"></div>
+                </aside>
+
+                </section>
+
+
+                <aside class="post-nav">
+                    <div class="clear"></div>
+                </aside>
+
+            </div>
+        </article>
+    </main>
+      <!-- TODO : Body class -->
+    <div id="body-class" style="display: none;" class=""></div>
+
+    <footer id="footer">
+      <div class="inner">
+        <section class="credits">
+
+
+          <span class="credits-theme">Theme <a href="https://github.com/arulrajnet/attila" rel="nofollow">Attila</a></span>
+          <span class="credits-software">Published with <a href="https://github.com/getpelican/pelican" rel="nofollow">Pelican</a></span>
+        </section>
+      </div>
+    </footer>
+  </section>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script type="text/javascript" src="../../../../theme/js/script.js"></script>
+
+</body>
+</html>
