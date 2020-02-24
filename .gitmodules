@@ -1,0 +1,8 @@
+[submodule "themes/attila"]
+	path = themes/attila
+	url = https://github.com/arulrajnet/attila
+[submodule "output"]
+	path = output
+	url = https://github.com/loaiabdalslam/sigma.git
+    ignore = all
+

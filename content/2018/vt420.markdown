@@ -1,0 +1,18 @@
+Title: Trying out my VT420
+Author: mr.rcollins
+Date: 2018-10-22 20:37
+Category: Hardware
+Tags: vt420
+
+![VT420](https://cdn.gtia.com/pics/2018/IMG_5687-2.jpeg)
+
+I picked up a couple of DEC VT420 terminals from a school auction about 
+20 years ago. Unfortunately, I never did anything with them because I 
+didn't have any way to hook them up. The VT420 terminal uses an MMJ 
+connector, which kind of looks like an RJ11 (phone connector) except 
+that the clip is off center.
+
+This week I ordered a cable from Pacific Custom Cable and bought a 
+couple of MMJ to DB25 adapters off of eBay. Now I have the terminal 
+plugged into my Portmaster terminal server and I can computer like it's 
+1989.
