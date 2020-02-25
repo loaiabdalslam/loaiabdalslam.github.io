@@ -9,13 +9,13 @@ import os
 import sys
 sys.path.append(os.curdir)
 
-SITENAME = 'The Atari and Retro Site of Goz'
+SITENAME = 'Yarmoq'
 
 TIMEZONE = 'America/New_York'
 
 MARKUP = (('rst', 'md', 'markdown'))
 
-AUTHOR = 'gozar'
+AUTHOR = 'loai'
 DEFAULT_DATE = 'fs'
 THEME = 'pelican-attila'
 
@@ -58,12 +58,12 @@ LINKS = (
             )
 
 AUTHORS_BIO = {
-        "gozar": {
-            "name":"Ryan 'Gozar' Collins",
-            "website": "https://ryancollins.org",
-            "image": "https://gtia.com/images/gozavatar.png",
+        "loai": {
+            "name":"Loaii abdalslam",
+            "website": "https://github.com/loaiabdalslam",
+            "image": "https://scontent-hbe1-1.xx.fbcdn.net/v/t1.0-9/s960x960/87034891_2809559315803716_9003757542827884544_o.jpg?_nc_cat=106&_nc_eui2=AeGc6SLk6Kizs2xfuaoZzHsROvYsd6_-jfupbEj10-VIkew7Wr1byCbZcZZOBGAyAb5tzjfyF6rmxiqMCCFn_FSceo_9hNYDq5nTausO7iP1lQ&_nc_ohc=qluZ8c-WQUoAX8KmheQ&_nc_ht=scontent-hbe1-1.xx&_nc_tp=7&oh=d5a9b60675054122534f88ee47745b6e&oe=5EC0CDCC",
             "location": "Earth",
-            "bio": "What, me worry?"
+            "bio": "Machine Learning , Location Intelligence , Data science "
             }
         }
 
@@ -85,4 +85,4 @@ MENUITEMS = (
 RELATIVE_URLS = True
 
 # Theme settings
-HEADER_COVER = '/images/Atari800-header.jpg'
+HEADER_COVER = '/images/cover.jpg'
