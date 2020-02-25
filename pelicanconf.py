@@ -18,6 +18,10 @@ MARKUP = (('rst', 'md', 'markdown'))
 AUTHOR = 'loai'
 DEFAULT_DATE = 'fs'
 THEME = 'pelican-attila'
+THEMEs = ["Pelican-RTL-theme",'pelican-attila']
+
+#THEME = "Pelican-RTL-theme"
+
 
 #FEED_ALL_ATOM = 'feeds/all.atom.xml'
 #CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'

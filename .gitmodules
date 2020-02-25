@@ -6,3 +6,7 @@
 	url = https://github.com/loaiabdalslam/sigma.git
     ignore = all
 
+[submodule "themes/Pelican-RTL-theme"]
+	path = themes/Pelican-RTL-theme
+	url = https://github.com/ziaa/Pelican-RTL-theme.git
+	branch = master
